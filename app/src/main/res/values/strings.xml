@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ePersonal App</string>
+    <string name="welcome_to_my_app">Welcome to My App</string>
+    <string name="about_me">More about Me</string>
+    <string name="hello_i_am">Hi! I am</string>
+    <string name="nur_ellya_nadhirah">Ellya Nadhirah</string>
+    <string name="title_activity_hobbies">Hobbies Activity</string>
+    <string name="open">Open Navigation</string>
+    <string name="close">Close Navigation</string>
+</resources>

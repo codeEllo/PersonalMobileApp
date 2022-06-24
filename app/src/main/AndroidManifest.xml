@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.edu.uitm.myoptionmenu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_smile"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_smile"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ResumeActivity"
+            android:parentActivityName=".HomepageActivity"/>
+
+        <activity android:name=".AboutMe2Activity"
+            android:parentActivityName=".HomepageActivity"/>
+
+        <activity android:name=".UitmActivity" />
+        <activity android:name=".SkillsActivity" />
+        <activity android:name=".HobbiesActivity" />
+        <activity android:name=".iStudentActivity" />
+        <activity android:name=".BaseActivity" /> <!-- <activity android:name=".AboutMe2Activity" /> -->
+             <activity android:name=".HomepageActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

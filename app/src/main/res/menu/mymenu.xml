@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mnAboutMe"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/btnLogout"
+        android:title="Home"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="ifRoom" />
+
+
+   <item android:title="menu"
+       android:icon="@drawable/ic_menu"
+        app:showAsAction="always">
+<menu>
+    <item android:id="@+id/mnHobbies"
+        android:title="Hobbies"
+        android:icon="@drawable/ic_interest"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mnSkills"
+        android:title="Skills"
+        android:icon="@drawable/ic_skills2"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/mnResume"
+        android:title="Resume"
+        android:icon="@drawable/ic_resume"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/mnOthers"
+        android:title="UiTM Website"
+        android:icon="@drawable/ic_website"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/mnUitm"
+                android:title="UiTM Official"
+                app:showAsAction="never" />
+
+            <item android:id="@+id/mnStudentPortal"
+                android:title="iStudent Portal"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
+</item>
+</menu>
