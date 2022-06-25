@@ -1,6 +1,6 @@
 # PortfolioMobileApp
  
- Here's the sample mockup for the app.
+ Here's the sample mockup of the app.
  
  
 >![FOOTAGE](https://github.com/codeEllo/PersonalMobileApp/blob/main/1.png?raw=true)<br>
