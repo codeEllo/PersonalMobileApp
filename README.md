@@ -19,4 +19,4 @@
 >![FOOTAGE](https://github.com/codeEllo/PersonalMobileApp/blob/main/2.png?raw=true)<br>
 
 
-# Upcoming (Group)Project : GPA ClALCULATOR MOBILE APP
+Upcoming (Group)Project : GPA CALCULATOR MOBILE APP
